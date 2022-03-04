@@ -1,473 +1,513 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Narithookil AutoSpa</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta charset="utf-8" />
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-<head>
-  <title>Narithookil AutoSpa</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta charset="utf-8" />
-  <!-- AOS CDN -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Syncopate:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/libs.css" media="screen" />
+    <link rel="stylesheet" href="./css/styles.css" media="screen" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" media="screen" />
+    <link rel="stylesheet" href="./css/linea-fonts.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic"
-    rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="./css/libs.css" media="screen" />
-  <link rel="stylesheet" href="./css/styles.css" media="screen" />
-  <link rel="stylesheet" href="./css/font-awesome.min.css" media="screen" />
-  <link rel="stylesheet" href="./css/linea-fonts.css" media="screen" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="icon" href="img/autoSpaLogo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/autoSpaLogo.png" type="image/x-icon" />
+  </head>
 
-  <link rel="icon" href="img/autoSpaLogo.png" type="image/x-icon" />
-  <link rel="shortcut icon" href="img/autoSpaLogo.png" type="image/x-icon" />
-</head>
+  <body>
+    <div class="nav-menu">
+      <div id="nav-menu-close" class="easing">X</div>
+      <div class="scroll-pane">
+        <h5>Menu</h5>
+        <ul class="main-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about-us">About us</a>
+          </li>
+          <li>
+            <a href="#our-services">Services</a>
+          </li>
 
-<body>
-  <div class="nav-menu">
-    <div id="nav-menu-close" class="easing">X</div>
-    <div class="scroll-pane">
-      <h5>Menu</h5>
-      <ul class="main-menu">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about-us">About us</a>
-        </li>
-        <li>
-          <a href="#our-services">Services</a>
-        </li>
-
-        <li>
-          <a href="./gallery/index.html">Gallery</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-        <li>
-          <a href="#localize-us">Locate us</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+          <li>
+            <a href="./gallery/index.html">Gallery</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a href="#localize-us">Locate us</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-  <main class="body-inner">
-    <header id="home">
-      <!-- Nav Menu -->
-      <div class="header-wrapper easing-fast">
-        <div class="header-wrapper-inner">
-          <div class="container">
-            <div class="header-wrapper-row row-">
-              <div class="col-md-4">
-                <div class="logo">
-                  <a href="index.html">
-                    <img class="logo_spa" src="./img/autoSpaLogo.png" alt="CarWash" />
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="pull-right">
-                  <div class="nav-menu-open-wrapper">
-                    <a id="nav-menu-open" href="#" class="img-thumbnail easing">
-                      <!-- <div class="icon icon-arrows icon-arrows-hamburger-2"></div> -->
-                      <i class="bi bi-list" style="font-size: 25px!important;"></i>
+    <main class="body-inner">
+      <header id="home">
+        <!-- Nav Menu -->
+        <div class="header-wrapper easing-fast">
+          <div class="header-wrapper-inner">
+            <div class="container">
+              <div class="header-wrapper-row row-">
+                <div class="col-md-4">
+                  <div class="logo">
+                    <a href="index.html">
+                      <img
+                        class="logo_spa"
+                        src="./img/autoSpaLogo.png"
+                        alt="CarWash"
+                      />
                     </a>
                   </div>
                 </div>
+                <div class="col-md-8">
+                  <div class="pull-right">
+                    <div class="nav-menu-open-wrapper">
+                      <a
+                        id="nav-menu-open"
+                        href="#"
+                        class="img-thumbnail easing"
+                      >
+                        <!-- <div class="icon icon-arrows icon-arrows-hamburger-2"></div> -->
+                        <i
+                          class="bi bi-list"
+                          style="font-size: 25px !important"
+                        ></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="header-section">
-        <div class="header-section-overlay"></div>
-        <div class="header-section-container">
-          <div class="header-section-inner">
-            <div class="container">
-              <h2 class="header-section-heading animation">
-                <span> Narithookil <span>auto</span>spa </span>
-              </h2>
-              <h3 class="header-section-subheading">
-                Give your car a boost of love with our guaranteed hands!
+        <div class="header-section">
+          <div class="header-section-overlay"></div>
+          <div class="header-section-container">
+            <div class="header-section-inner">
+              <div class="container">
+                <h2 class="header-section-heading animation">
+                  <span> Narithookil <span>auto</span>spa </span>
+                </h2>
+                <h3 class="header-section-subheading">
+                  Give your car a boost of love with our guaranteed hands!
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Icon Box Section -->
+      <section class="fullwidth-section welcome-section">
+        <div class="section-inner">
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h3 class="section-title" style="font-size: 40px">
+                <span>Welcome to Narithookil autospa</span>
               </h3>
+              <h4 class="section-subtitle">
+                A place to give your car the extra love it deserves.<br />
+                Get your cars all squeaky clean and spotless because we know how
+                much you love your car.
+              </h4>
+              <!-- <a href="#" class="btn-ghost-rev"> Learn More </a> -->
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <div class="icon-box">
+                  <div
+                    class="icon-wrapper img-circle center-block wow fadeInUp"
+                    data-wow-duration="2s"
+                  >
+                    <i class="icon-basic icon-basic-star color"></i>
+                  </div>
+                  <h4 class="heading">Handpicked excellence</h4>
+                  <p>
+                    Our specially picked skilled team of men along with our
+                    automated systems helps us to be among the top in our city.
+                    We make sure our services leave a mark in our customer's
+                    heart. Our services are the best, for the best.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="icon-box">
+                  <div
+                    class="icon-wrapper img-circle center-block wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="0.5s"
+                  >
+                    <i class="icon-ecommerce icon-ecommerce-graph2 color"></i>
+                  </div>
+                  <h4 class="heading">Highly experienced</h4>
+                  <p>
+                    The primary concern of our carwash is to make both you and
+                    your car happy and flawless. For this, we handpicked the
+                    most experienced team. Along with our men we have a fully
+                    automated washing system that boosts the spirits of your
+                    vehicle.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="icon-box">
+                  <div
+                    class="icon-wrapper img-circle center-block wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="1s"
+                  >
+                    <i class="icon-basic icon-basic-target color"></i>
+                  </div>
+                  <h4 class="heading">High effectiveness</h4>
+                  <p>
+                    Guarantee and quality are two things we take responsibility
+                    for. We guarantee that your vehicle is safe in the hands of
+                    our skilled team. We assure that your vehicle receives that
+                    extra care it deserves. Your happiness is our pride
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="icon-box">
+                  <div
+                    class="icon-wrapper img-circle center-block wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="1.5s"
+                  >
+                    <i class="icon-ecommerce icon-ecommerce-banknote color"></i>
+                  </div>
+                  <h4 class="heading">Focus on Quality</h4>
+                  <p>
+                    We take pride in saying that we provide the best quality
+                    services at great prices. Focusing on quality is what makes
+                    us stand out from others. We make sure that your car
+                    receives the correct proportion of love and care and that is
+                    and will be our topmost priority.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <!-- Icon Box Section -->
-    <section class="fullwidth-section welcome-section">
-      <div class="section-inner">
-        <div class="container">
-          <div class="section-title-wrapper">
-            <h3 class="section-title" style="font-size: 40px">
-              <span>Welcome to Narithookil autospa</span>
-            </h3>
-            <h4 class="section-subtitle">
-              A place to give your car the extra love it deserves.<br />
-              Get your cars all squeaky clean and spotless because we know how
-              much you love your car.
-            </h4>
-            <!-- <a href="#" class="btn-ghost-rev"> Learn More </a> -->
-          </div>
+      </section>
 
-          <div class="divider"></div>
-
-          <div class="row">
-            <div class="col-md-3">
-              <div class="icon-box">
-                <div class="icon-wrapper img-circle center-block wow fadeInUp" data-wow-duration="2s">
-                  <i class="icon-basic icon-basic-star color"></i>
-                </div>
-                <h4 class="heading">Handpicked excellence</h4>
-                <p>
-                  Our specially picked skilled team of men along with our
-                  automated systems helps us to be among the top in our city.
-                  We make sure our services leave a mark in our customer's
-                  heart. Our services are the best, for the best.
-                </p>
-              </div>
+      <!-- About Section -->
+      <section class="fullwidth-section gray-section" id="about-us">
+        <div class="section-inner">
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h2 class="section-title"><span>About us</span></h2>
+              <h4 class="section-subtitle">This is who we are</h4>
             </div>
-            <div class="col-md-3">
-              <div class="icon-box">
-                <div class="icon-wrapper img-circle center-block wow fadeInUp" data-wow-duration="2s"
-                  data-wow-delay="0.5s">
-                  <i class="icon-ecommerce icon-ecommerce-graph2 color"></i>
-                </div>
-                <h4 class="heading">Highly experienced</h4>
-                <p>
-                  The primary concern of our carwash is to make both you and
-                  your car happy and flawless. For this, we handpicked the
-                  most experienced team. Along with our men we have a fully
-                  automated washing system that boosts the spirits of your
-                  vehicle.
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="txt-light">
+                  We,
+                  <span class="text-dark ultra-bold">Narithookil Autospa</span>
+                </h2>
+                <p style="font-size: medium">
+                  Narithookil autospa is a group of energetic and skilled
+                  experts attempting in giving that extra dose of care and love
+                  that cars deserve. We focus on quality and guarantee assurance
+                  to the customers. Our handpicked skilled men make the
+                  happiness of customers their utmost priority. Our fully
+                  automated system ensures the safety of cars, leaving the cars
+                  spotless. Our pride lies in providing the best quality
+                  services to everyone who trusts us with their special love,
+                  their cars.
                 </p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="icon-box">
-                <div class="icon-wrapper img-circle center-block wow fadeInUp" data-wow-duration="2s"
-                  data-wow-delay="1s">
-                  <i class="icon-basic icon-basic-target color"></i>
-                </div>
-                <h4 class="heading">High effectiveness</h4>
-                <p>
-                  Guarantee and quality are two things we take responsibility
-                  for. We guarantee that your vehicle is safe in the hands of
-                  our skilled team. We assure that your vehicle receives that
-                  extra care it deserves. Your happiness is our pride
-                </p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="icon-box">
-                <div class="icon-wrapper img-circle center-block wow fadeInUp" data-wow-duration="2s"
-                  data-wow-delay="1.5s">
-                  <i class="icon-ecommerce icon-ecommerce-banknote color"></i>
-                </div>
-                <h4 class="heading">Focus on Quality</h4>
-                <p>
-                  We take pride in saying that we provide the best quality
-                  services at great prices. Focusing on quality is what makes
-                  us stand out from others. We make sure that your car
-                  receives the correct proportion of love and care and that is
-                  and will be our topmost priority.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="fullwidth-section gray-section" id="about-us">
-      <div class="section-inner">
-        <div class="container">
-          <div class="section-title-wrapper">
-            <h2 class="section-title"><span>About us</span></h2>
-            <h4 class="section-subtitle">This is who we are</h4>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <h2 class="txt-light">
-                We,
-                <span class="text-dark ultra-bold">Narithookil Autospa</span>
-              </h2>
-              <p style="font-size: medium">
-                Narithookil autospa is a group of energetic and skilled
-                experts attempting in giving that extra dose of care and love
-                that cars deserve. We focus on quality and guarantee assurance
-                to the customers. Our handpicked skilled men make the
-                happiness of customers their utmost priority. Our fully
-                automated system ensures the safety of cars, leaving the cars
-                spotless. Our pride lies in providing the best quality
-                services to everyone who trusts us with their special love,
-                their cars.
-              </p>
-              <!-- <h3 class="txt-light wow fadeInLeft">
+                <!-- <h3 class="txt-light wow fadeInLeft">
                   <span class="ultra-bold">10+</span> Years of experience
                 </h3> -->
-<!--               <h3 class="txt-light wow fadeInLeft" data-wow-delay="0.5s">
+                <!--               <h3 class="txt-light wow fadeInLeft" data-wow-delay="0.5s">
                 <span class="ultra-bold">100+</span> Cars cleaned every day
               </h3> -->
-<!--               <h3 class="txt-light wow fadeInLeft" data-wow-delay="1s">
+                <!--               <h3 class="txt-light wow fadeInLeft" data-wow-delay="1s">
                 <span class="ultra-bold">1000+</span> Happy customers
               </h3> -->
-            </div>
-            <div class="col-md-6 h-100">
-              <img class="washOne" src="img/washOne.png" alt="Garage" style="width: 100% !important; height: auto;" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-
-    <section class="fullwidth-section" id="our-services">
-      <div class="section-inner">
-        <div class="container">
-          <div class="section-title-wrapper">
-            <h2 class="section-title"><span>Services</span></h2>
-            <h4 class="section-subtitle">This is what we can do for you</h4>
-          </div>
-
-          <div class="row">
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Body Water Service</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Our experts wash and carefully clean leaving your
-                          cars all shiny again.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="Hand Washing" />
-                </div>
-                <div class="service-number wow zoomIn">1</div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Foam Wash</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Pleasant smelling and good quality foam shampoos are
-                          used to clean and regain the charm of your vehicle.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="Tunnel Washing" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="0.5s">
-                  2
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Under Chase Wash</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          A fully automated chassis washing system is used to
-                          clean the under of your vehicle and also our experts
-                          clean every nook and corner to protect the vehicle.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="Detailed Cleaning" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="1s">
-                  3
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Alloy Cleaning</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          The simple attraction of your vehicle, your
-                          favourite alloy wheels, our experts will get it all
-                          shiny and classy all over again.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="Windows Cleaning" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="1.5s">
-                  4
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="row services-row-padding">
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Interior Cleaning</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Our professional skilled men will clean every corner
-                          of your car's inside so that you have a comfortable
-                          travel time.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="Tire Armoring" />
-                </div>
-                <div class="service-number wow zoomIn">5</div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Perfuming</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Delicate smelling perfumes are used to restore the
-                          fresh smell in your car making your travel more
-                          enjoyable
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="Interior Cleaning" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="0.5s">
-                  6
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Dashboard Dressing</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Our men will dust and clean your dashboards in a way
-                          it looks new and spotless.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="Vacuum Cleaning" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="1s">
-                  7
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Glass cleaning</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Professional experts at our spa will make your car
-                          sparkling clean and flawless just like a brand new
-                          car.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="AC Fumigation" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="1.5s">
-                  8
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3" style="margin-top: 30px">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Engine Bay Cleaning</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Engine bays have to be kept clean just like your
-                          car, our experts are here to do it for you.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="AC Fumigation" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="1.5s">
-                  9
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3" style="margin-top: 30px">
-              <a href="#" class="service easing">
-                <div class="service-inner">
-                  <div class="service-overlay easing">
-                    <div class="service-content-wrapper easing">
-                      <div class="service-content">
-                        <h4 class="service-heading">Interior Steaming</h4>
-                        <div class="service-divider"></div>
-                        <p>
-                          Guaranteed and safe steam cleaning is available at
-                          our car spa for your dearest seats.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="./img/threeFifty.png" alt="AC Fumigation" />
-                </div>
-                <div class="service-number wow zoomIn" data-wow-delay="1.5s">
-                  10
-                </div>
-              </a>
+              </div>
+              <div class="col-md-6 h-100">
+                <img
+                  class="washOne"
+                  src="img/washOne.png"
+                  alt="Garage"
+                  style="width: 100% !important; height: auto"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Section -->
-    <!-- <section class="fullwidth-section" id="contact">
+      <!-- Services Section -->
+
+      <section class="fullwidth-section" id="our-services">
+        <div class="section-inner">
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h2 class="section-title"><span>Services</span></h2>
+              <h4 class="section-subtitle">This is what we can do for you</h4>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Body Water Service</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Our experts wash and carefully clean leaving your
+                            cars all shiny again.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="Hand Washing" />
+                  </div>
+                  <div class="service-number wow zoomIn">1</div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Foam Wash</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Pleasant smelling and good quality foam shampoos are
+                            used to clean and regain the charm of your vehicle.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="Tunnel Washing" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="0.5s">
+                    2
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Under Chase Wash</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            A fully automated chassis washing system is used to
+                            clean the under of your vehicle and also our experts
+                            clean every nook and corner to protect the vehicle.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="Detailed Cleaning" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="1s">
+                    3
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Alloy Cleaning</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            The simple attraction of your vehicle, your
+                            favourite alloy wheels, our experts will get it all
+                            shiny and classy all over again.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="Windows Cleaning" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="1.5s">
+                    4
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="row services-row-padding">
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Interior Cleaning</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Our professional skilled men will clean every corner
+                            of your car's inside so that you have a comfortable
+                            travel time.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="Tire Armoring" />
+                  </div>
+                  <div class="service-number wow zoomIn">5</div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Perfuming</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Delicate smelling perfumes are used to restore the
+                            fresh smell in your car making your travel more
+                            enjoyable
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="Interior Cleaning" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="0.5s">
+                    6
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Dashboard Dressing</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Our men will dust and clean your dashboards in a way
+                            it looks new and spotless.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="Vacuum Cleaning" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="1s">
+                    7
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Glass cleaning</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Professional experts at our spa will make your car
+                            sparkling clean and flawless just like a brand new
+                            car.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="AC Fumigation" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="1.5s">
+                    8
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3" style="margin-top: 30px">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Engine Bay Cleaning</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Engine bays have to be kept clean just like your
+                            car, our experts are here to do it for you.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="AC Fumigation" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="1.5s">
+                    9
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3" style="margin-top: 30px">
+                <a href="#" class="service easing">
+                  <div class="service-inner">
+                    <div class="service-overlay easing">
+                      <div class="service-content-wrapper easing">
+                        <div class="service-content">
+                          <h4 class="service-heading">Interior Steaming</h4>
+                          <div class="service-divider"></div>
+                          <p>
+                            Guaranteed and safe steam cleaning is available at
+                            our car spa for your dearest seats.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="./img/threeFifty.png" alt="AC Fumigation" />
+                  </div>
+                  <div class="service-number wow zoomIn" data-wow-delay="1.5s">
+                    10
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <!-- <section class="fullwidth-section" id="contact">
         <div class="section-inner">
           <div class="container">
             <div class="section-title-wrapper">
@@ -493,41 +533,41 @@
         </div>
       </section> -->
 
-    <!-- Pricing Section -->
-    <section class="fullwidth-section color-section" id="pricing">
-      <div class="section-inner">
-        <div class="container">
-          <div class="section-title-wrapper">
-            <h2 class="section-title"><span>Opening hours</span></h2>
-            <h4 class="section-subtitle">These are our Opening Hours</h4>
-          </div>
-          <div class="h4">
-            <ul class="px-4" style="list-style-type: none">
-              <li style="margin: 10px 0">
-                Monday: <span class="">9:00am - 7:00pm</span>
-              </li>
-              <li style="margin: 10px 0">
-                Tuesday: <span class="">9:00am - 7:00pm</span>
-              </li>
-              <li style="margin: 10px 0">
-                Wednesday: <span class="">9:00am - 7:00pm</span>
-              </li>
-              <li style="margin: 10px 0">
-                Thursday: <span class="">9:00am - 6:00pm</span>
-              </li>
-              <li style="margin: 10px 0">
-                Friday: <span class="">9:00am - 7:00pm</span>
-              </li>
-              <li style="margin: 10px 0">
-                Saturday: <span class="">9:00am - 7:00pm</span>
-              </li>
-              <li style="margin: 10px 0">
-                Sunday: <span class="">10:00am - 6:00pm</span>
-              </li>
-            </ul>
-          </div>
+      <!-- Pricing Section -->
+      <section class="fullwidth-section color-section" id="pricing">
+        <div class="section-inner">
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h2 class="section-title"><span>Opening hours</span></h2>
+              <h4 class="section-subtitle">These are our Opening Hours</h4>
+            </div>
+            <div class="h4">
+              <ul class="px-4" style="list-style-type: none">
+                <li style="margin: 10px 0">
+                  Monday: <span class="">9:00am - 7:00pm</span>
+                </li>
+                <li style="margin: 10px 0">
+                  Tuesday: <span class="">9:00am - 7:00pm</span>
+                </li>
+                <li style="margin: 10px 0">
+                  Wednesday: <span class="">9:00am - 7:00pm</span>
+                </li>
+                <li style="margin: 10px 0">
+                  Thursday: <span class="">9:00am - 6:00pm</span>
+                </li>
+                <li style="margin: 10px 0">
+                  Friday: <span class="">9:00am - 7:00pm</span>
+                </li>
+                <li style="margin: 10px 0">
+                  Saturday: <span class="">9:00am - 7:00pm</span>
+                </li>
+                <li style="margin: 10px 0">
+                  Sunday: <span class="">10:00am - 6:00pm</span>
+                </li>
+              </ul>
+            </div>
 
-          <!-- <div class="row pricing-table-padding">
+            <!-- <div class="row pricing-table-padding">
               <div class="col-md-4">
                 <div class="pricing-table wow fadeInLeft">
                   <div class="title-wrapper">
@@ -597,278 +637,305 @@
 
 
             </div> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="fullwidth-section" id="testimonials">
-      <div class="section-inner">
-        <div class="container">
-          <div class="section-title-wrapper">
-            <h2 class="section-title"><span>Testimonials</span></h2>
-            <h4 class="section-subtitle">This is what they say about us</h4>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="testimonial">
-                <h4>"excellence service at great price. Loved it!!"</h4>
-                <div class="rating-wrapper">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <span class="color bold">
-                    - Thomas Valiyaparampil / Mahindra Thar
-                  </span>
-                </div>
-                <!-- <p>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="fullwidth-section" id="testimonials">
+        <div class="section-inner">
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h2 class="section-title"><span>Testimonials</span></h2>
+              <h4 class="section-subtitle">This is what they say about us</h4>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="testimonial">
+                  <h4>"excellence service at great price. Loved it!!"</h4>
+                  <div class="rating-wrapper">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span class="color bold">
+                      - Thomas Valiyaparampil / Mahindra Thar
+                    </span>
+                  </div>
+                  <!-- <p>
                     excellence service at great price. Love it!!
                   </p> -->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="testimonial">
-                <h4>
-                  "Loved the carwash Service is awsome and they do a great
-                  job, try it you will not regret"
-                </h4>
-                <div class="rating-wrapper">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <span class="color bold">
-                    - Sutheesh Sukumaaran / Hyundai Creta
-                  </span>
                 </div>
-                <!-- <p>
+              </div>
+              <div class="col-md-6">
+                <div class="testimonial">
+                  <h4>
+                    "Loved the carwash Service is awsome and they do a great
+                    job, try it you will not regret"
+                  </h4>
+                  <div class="rating-wrapper">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span class="color bold">
+                      - Sutheesh Sukumaaran / Hyundai Creta
+                    </span>
+                  </div>
+                  <!-- <p>
                     Morbi ac lectus malesuada, cursus justo non, iaculis lectus.
                     Integer non purus vel nisl pellentesque mollis vitae
                     porttitor dui. Vivamus posuere neque dolor, et vehicula
                     lacus euismod ac.
                   </p> -->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="testimonial">
-                <h4>
-                  "Excellent services, great way of dealing. I am really
-                  satisfied."
-                </h4>
-                <div class="rating-wrapper">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <span class="color bold">
-                    - Dr. O C Aloysius / EcoSport
-                  </span>
                 </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="testimonial">
-                <h4>
-                  "I was scared to try out a new place as my car was just
-                  recently bought but happy to say that the service was
-                  impressive, they took good care of my car and will surely go
-                  back for more."
-                </h4>
-                <div class="rating-wrapper">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <span class="color bold">
-                    - Alexander Thankachan / Ford Endeavour
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Localize Us Section -->
-    <section id="localize-us" class="fullwidth-section gray-section">
-      <div class="section-inner no-padding-bottom">
-        <div class="container">
-          <div class="section-title-wrapper">
-            <h2 class="section-title"><span>Location</span></h2>
-            <h4 class="section-subtitle">This is where we are</h4>
-            <div class="row">
-              <div class="col-12">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.37492277289!2d76.76709671476121!3d9.562912793151634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06351fe49c3c35%3A0xa4ca5788c8a7b991!2sNarithookil%20Auto%20Spa!5e0!3m2!1sen!2sin!4v1631992465048!5m2!1sen!2sin"
-                  width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div id="map_canvas"></div> -->
-      </div>
-    </section>
-
-    <footer>
-      <div class="footer-widget-area">
-        <div class="footer-widget-area-inner">
-          <div class="container">
-            <div class="row footer-row">
-              <div class="col-md-4">
-                <div class="media">
-                  <div class="pull-left">
-                    <div class="icon-basic icon-basic-smartphone footer-icon"></div>
+              <div class="col-md-6">
+                <div class="testimonial">
+                  <h4>
+                    "Excellent services, great way of dealing. I am really
+                    satisfied."
+                  </h4>
+                  <div class="rating-wrapper">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span class="color bold">
+                      - Dr. O C Aloysius / EcoSport
+                    </span>
                   </div>
-                  <div id="contact" class="media-body">
-                    <h3 class="widget-first-line">
-                      +91 9207838177 <br />+91 8606626017 <br /><i class="fa fa-envelope r-2">
-                      </i>
-                      <span class="h4"> narithookilautospa@gmail.com</span>
-                    </h3>
-                    <!-- <h4 class="widget-second-line color">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="testimonial">
+                  <h4>
+                    "I was scared to try out a new place as my car was just
+                    recently bought but happy to say that the service was
+                    impressive, they took good care of my car and will surely go
+                    back for more."
+                  </h4>
+                  <div class="rating-wrapper">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span class="color bold">
+                      - Alexander Thankachan / Ford Endeavour
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Localize Us Section -->
+      <section id="localize-us" class="fullwidth-section gray-section">
+        <div class="section-inner no-padding-bottom">
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h2 class="section-title"><span>Location</span></h2>
+              <h4 class="section-subtitle">This is where we are</h4>
+              <div class="row">
+                <div class="col-12">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.37492277289!2d76.76709671476121!3d9.562912793151634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06351fe49c3c35%3A0xa4ca5788c8a7b991!2sNarithookil%20Auto%20Spa!5e0!3m2!1sen!2sin!4v1631992465048!5m2!1sen!2sin"
+                    width="100%"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div id="map_canvas"></div> -->
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-widget-area">
+          <div class="footer-widget-area-inner">
+            <div class="container">
+              <div class="row footer-row">
+                <div class="col-md-4">
+                  <div class="media">
+                    <div class="pull-left">
+                      <div
+                        class="icon-basic icon-basic-smartphone footer-icon"
+                      ></div>
+                    </div>
+                    <div id="contact" class="media-body">
+                      <h3 class="widget-first-line">
+                        +91 9207838177 <br />+91 8606626017 <br /><i
+                          class="fa fa-envelope r-2"
+                        >
+                        </i>
+                        <span class="h4"> narithookilautospa@gmail.com</span>
+                      </h3>
+                      <!-- <h4 class="widget-second-line color">
                         Have some questions?
                       </h4> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="footer-logo-social">
+                    <img
+                      class="footer-logo"
+                      src="img/autoSpaLogo.png"
+                      style="height: 25%; width: 25%"
+                      alt="CarWash"
+                    />
+                    <div class="social-icons-wrapper">
+                      <a
+                        href="https://www.facebook.com/narithookilautospa"
+                        class="social-icon img-circle"
+                      >
+                        <i class="fa fa-facebook fa-2x"></i>
+                      </a>
+                      <a
+                        href="https://www.instagram.com/narithookil_autospa/"
+                        class="social-icon img-circle"
+                      >
+                        <i class="fa fa-twitter fa-2x"></i>
+                      </a>
+                      <a
+                        href="https://www.instagram.com/narithookil_autospa/"
+                        class="social-icon img-circle"
+                      >
+                        <i class="fa fa-instagram fa-2x"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="media">
+                    <div class="media-left">
+                      <div
+                        class="icon-basic icon-basic-geolocalize-01 footer-icon"
+                      ></div>
+                    </div>
+                    <div class="media-body">
+                      <h3 class="widget-first-line">Court Junction</h3>
+                      <h4 class="widget-second-line color">
+                        Ponkunnam, Kottayam District kerala <br />
+                        Pin: 686506
+                        <br /><span class="h5"
+                          >Email: narithookilautospa@gmail.com</span
+                        >
+                      </h4>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="footer-logo-social">
-                  <img class="footer-logo" src="img/autoSpaLogo.png" style="height: 25%; width: 25%" alt="CarWash" />
-                  <div class="social-icons-wrapper">
-                    <a href="https://www.facebook.com/narithookilautospa" class="social-icon img-circle">
-                      <i class="fa fa-facebook fa-2x"></i>
-                    </a>
-                    <a href="https://www.instagram.com/narithookil_autospa/" class="social-icon img-circle">
-                      <i class="fa fa-twitter fa-2x"></i>
-                    </a>
-                    <a href="https://www.instagram.com/narithookil_autospa/" class="social-icon img-circle">
-                      <i class="fa fa-instagram fa-2x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="media">
-                  <div class="media-left">
-                    <div class="icon-basic icon-basic-geolocalize-01 footer-icon"></div>
-                  </div>
-                  <div class="media-body">
-                    <h3 class="widget-first-line">Court Junction</h3>
-                    <h4 class="widget-second-line color">
-                      Ponkunnam, Kottayam District kerala <br />
-                      Pin: 686506
-                      <br /><span class="h5">Email: narithookilautospa@gmail.com</span>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="divider"></div>
+              <div class="divider"></div>
 
-            <div class="row">
-              <div class="col-md-3">
-                <h5 class="widget-title">About</h5>
-                <p>
-                  Narithookil autospa is a group of energetic and skilled
-                  experts attempting in giving that extra dose of care and
-                  love that cars deserve. We focus on quality and guarente
-                  assurance to the customers. Our fully automated system
-                  ensures the safety of cars, leaving the cars spotless. Our
-                  pride lies in providing the best quality services to
-                  everyone who trusts us with their special love, their cars.
-                </p>
-              </div>
-              <div class="col-md-3">
-                <h5 class="widget-title">Services</h5>
-                <ul class="list-widget">
-                  <li>Body Water Service</li>
-                  <li>Foam Wash</li>
-                  <li>Under Chase Wash</li>
-                  <li>Alloy Cleaning</li>
-                  <li>Interior Cleaning</li>
-                  <li>Perfuming</li>
-                  <li>Dashboard Dressing</li>
-                  <li>Glass cleaning</li>
-                  <li>Engine Bay Cleaning</li>
-                  <li>Interior Steaming</li>
-                </ul>
-              </div>
-              <div class="col-md-3">
-                <h5 class="widget-title">Contact</h5>
-                <p>
-                  Court Junction, Ponkunnam <br />Kottayam District, kerala
-                </p>
-                <p>Pin Code: 686506</p>
-                <p>Tel: 9207838177</p>
-                <p>E-mail: narithookilautospa@gmail.com</p>
-              </div>
-              <div class="col-md-3">
-                <h5 class="widget-title">Opening Hours</h5>
-                <ul class="list-widget">
-                  <li>
-                    Monday <span class="pull-right">8.00am - 7.00pm</span>
-                  </li>
-                  <li>
-                    Tuesday <span class="pull-right">8.00am - 7.00pm</span>
-                  </li>
-                  <li>
-                    Wednesday <span class="pull-right">8.00am - 7.00pm</span>
-                  </li>
-                  <li>
-                    Thursday <span class="pull-right">8.00am - 6.00pm</span>
-                  </li>
-                  <li>
-                    Friday <span class="pull-right">8.00am - 7.00pm</span>
-                  </li>
-                  <li>
-                    Saturday <span class="pull-right">8.00am - 7.00pm</span>
-                  </li>
-                  <li>
-                    Sunday <span class="pull-right">8.00am - 1.00pm</span>
-                  </li>
-                </ul>
+              <div class="row">
+                <div class="col-md-3">
+                  <h5 class="widget-title">About</h5>
+                  <p>
+                    Narithookil autospa is a group of energetic and skilled
+                    experts attempting in giving that extra dose of care and
+                    love that cars deserve. We focus on quality and guarente
+                    assurance to the customers. Our fully automated system
+                    ensures the safety of cars, leaving the cars spotless. Our
+                    pride lies in providing the best quality services to
+                    everyone who trusts us with their special love, their cars.
+                  </p>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="widget-title">Services</h5>
+                  <ul class="list-widget">
+                    <li>Body Water Service</li>
+                    <li>Foam Wash</li>
+                    <li>Under Chase Wash</li>
+                    <li>Alloy Cleaning</li>
+                    <li>Interior Cleaning</li>
+                    <li>Perfuming</li>
+                    <li>Dashboard Dressing</li>
+                    <li>Glass cleaning</li>
+                    <li>Engine Bay Cleaning</li>
+                    <li>Interior Steaming</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="widget-title">Contact</h5>
+                  <p>
+                    Court Junction, Ponkunnam <br />Kottayam District, kerala
+                  </p>
+                  <p>Pin Code: 686506</p>
+                  <p>Tel: 9207838177</p>
+                  <p>E-mail: narithookilautospa@gmail.com</p>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="widget-title">Opening Hours</h5>
+                  <ul class="list-widget">
+                    <li>
+                      Monday <span class="pull-right">9.00am - 7.00pm</span>
+                    </li>
+                    <li>
+                      Tuesday <span class="pull-right">9.00am - 7.00pm</span>
+                    </li>
+                    <li>
+                      Wednesday <span class="pull-right">9.00am - 7.00pm</span>
+                    </li>
+                    <li>
+                      Thursday <span class="pull-right">9.00am - 6.00pm</span>
+                    </li>
+                    <li>
+                      Friday <span class="pull-right">9.00am - 7.00pm</span>
+                    </li>
+                    <li>
+                      Saturday <span class="pull-right">9.00am - 7.00pm</span>
+                    </li>
+                    <li>
+                      Sunday <span class="pull-right">10.00am - 6.00pm</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="copyright-bar">
-        <div class="container">
-          ©️2021
-          <span class="color">
-            Narithookil AutoSpa by
-            <a href="https://rubenshibu.tech">TERMINAL</a> with Love 💛</span>
+        <div class="copyright-bar">
+          <div class="container">
+            ©️2021
+            <span class="color">
+              Narithookil AutoSpa by
+              <a href="https://rubenshibu.tech">TERMINAL</a> with Love 💛</span
+            >
+          </div>
         </div>
-      </div>
-    </footer>
-  </main>
+      </footer>
+    </main>
 
-  <div class="site-loader easing">
-    <div class="site-loader-wrapper">
-      <div class="site-loader-inner">
-        <div class="loader">
-          <div class="loader-inner ball-clip-rotate-multiple">
-            <div></div>
-            <div></div>
+    <div class="site-loader easing">
+      <div class="site-loader-wrapper">
+        <div class="site-loader-inner">
+          <div class="loader">
+            <div class="loader-inner ball-clip-rotate-multiple">
+              <div></div>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script src="./js/jquery-2.1.4.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-  <script src="./js/maps.js" type="text/javascript"></script>
-  <script src="./js/plugins.js" type="text/javascript"></script>
-  <script src="./js/main.js" type="text/javascript"></script>
-</body>
-
+    <script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="./js/maps.js" type="text/javascript"></script>
+    <script src="./js/plugins.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
+  </body>
 </html>
